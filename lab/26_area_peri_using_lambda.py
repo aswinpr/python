@@ -1,0 +1,6 @@
+length=int(input("enter length of rectangle : "))
+breadth=int(input("enter breadth of rectangle : "))
+area=(lambda length,breadth:length*breadth)
+print("area of rectangle is: ",area(length,breadth))
+perimeter=(lambda length,breadth:2*(length+breadth))
+print("perimeter is",perimeter(length,breadth))
