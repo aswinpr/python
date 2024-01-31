@@ -1,5 +1,5 @@
 n=int(input("enter the limit : "))
-l=n*100
+l=n*10
 count=0
 for i in range(1,l):
     if count<n:
